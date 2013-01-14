@@ -3,6 +3,7 @@ apply plugin: "idea"
 
 subprojects {
     apply plugin: "java"
+
     repositories {
         mavenCentral()
         maven {
@@ -12,20 +13,39 @@ subprojects {
             url "http://repository.jboss.org/nexus/content/groups/public"
         }
     }
+
     dependencies {
         testCompile("junit:junit:$junitVersion")
         testCompile("org.mockito:mockito-all:$mockitoVersion")
     }
 
+
+    sourceSets {
+        integrationTest {
+            java.srcDir file('src/integration-test/java')
+            resources.srcDir file('src/integration-test/resources')
+        }
+    }
+
+    task integrationTest(type: Test, dependsOn: jar) {
+        testClassesDir = sourceSets.integrationTest.output.classesDir
+        classpath = sourceSets.integrationTest.runtimeClasspath
+        systemProperties['jar.path'] = jar.archivePath
+    }
+
+
     task testArchive(type: Jar, dependsOn: testClasses) {
         baseName = "test-${project.archivesBaseName}"
         from sourceSets.test.output
     }
+
+
     configurations {
         tests
     }
     artifacts {
         tests testArchive
     }
+    check.dependsOn integrationTest
 }
 

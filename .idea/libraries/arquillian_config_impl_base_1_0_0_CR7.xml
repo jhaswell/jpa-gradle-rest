@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="arquillian-config-impl-base-1.0.0.CR7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.arquillian.config/arquillian-config-impl-base/1.0.0.CR7/jar/5ad64e689ea9537b238f7efd7c3a99f0773c4ff3/arquillian-config-impl-base-1.0.0.CR7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.arquillian.config/arquillian-config-impl-base/1.0.0.CR7/source/8431e9c7090d97c8e894d014ff61c23956739743/arquillian-config-impl-base-1.0.0.CR7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

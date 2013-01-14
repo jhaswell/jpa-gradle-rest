@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="args4j-2.0.12">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/args4j/args4j/2.0.12/jar/8c5403feb1152f34fff9b013f0d0b5a05c4f5764/args4j-2.0.12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/args4j/args4j/2.0.12/source/5d77a08421931abefc396d92a55ec01c642343f6/args4j-2.0.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

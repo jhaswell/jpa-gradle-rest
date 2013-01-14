@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jboss-as-deployment-repository-7.1.1.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.as/jboss-as-deployment-repository/7.1.1.Final/jar/765041a94f6204afc8e83a3ca8d4325b52aaa631/jboss-as-deployment-repository-7.1.1.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.as/jboss-as-deployment-repository/7.1.1.Final/source/d7fa1912138c6efe984880a8611493046c41eb87/jboss-as-deployment-repository-7.1.1.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

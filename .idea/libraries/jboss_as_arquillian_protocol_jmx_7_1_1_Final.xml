@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jboss-as-arquillian-protocol-jmx-7.1.1.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.as/jboss-as-arquillian-protocol-jmx/7.1.1.Final/jar/f7f2a3f97fd4df03286313d250443e259a2b0ee3/jboss-as-arquillian-protocol-jmx-7.1.1.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.as/jboss-as-arquillian-protocol-jmx/7.1.1.Final/source/71af415e3650538f3a628391533a73f25a2f217c/jboss-as-arquillian-protocol-jmx-7.1.1.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="arquillian-container-osgi-1.0.2.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.arquillian.container/arquillian-container-osgi/1.0.2.Final/jar/2c702f844afbd8840606fb73bb9346d90b19ad37/arquillian-container-osgi-1.0.2.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.arquillian.container/arquillian-container-osgi/1.0.2.Final/source/6bc3114193b58ef2cf8b429ee605acf12119cfb0/arquillian-container-osgi-1.0.2.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

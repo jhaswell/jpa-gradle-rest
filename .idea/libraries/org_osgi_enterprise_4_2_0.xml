@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="org.osgi.enterprise-4.2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.osgi/org.osgi.enterprise/4.2.0/jar/8634dcb0fc62196e820ed0f1062993c377f74972/org.osgi.enterprise-4.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.osgi/org.osgi.enterprise/4.2.0/source/d885c29ea36fd5719b1db1ee1bc8b4c33e374cd1/org.osgi.enterprise-4.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

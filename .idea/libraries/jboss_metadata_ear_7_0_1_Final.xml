@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jboss-metadata-ear-7.0.1.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.metadata/jboss-metadata-ear/7.0.1.Final/jar/45446fd6ff13eefbb83f63076e90f69caa8fbb2b/jboss-metadata-ear-7.0.1.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.metadata/jboss-metadata-ear/7.0.1.Final/source/8ccdf1d94aa1dca756182d5c0cb0be80ab6e52f3/jboss-metadata-ear-7.0.1.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

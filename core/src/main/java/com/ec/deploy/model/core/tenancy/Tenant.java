@@ -20,7 +20,9 @@ public class Tenant
 
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(
+        strategy = GenerationType.SEQUENCE
+    )
     private Long id;
 
     @Basic

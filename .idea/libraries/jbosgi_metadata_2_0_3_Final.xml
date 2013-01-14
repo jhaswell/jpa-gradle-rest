@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jbosgi-metadata-2.0.3.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.osgi.metadata/jbosgi-metadata/2.0.3.Final/jar/afc579e8a9ac459ae71c2f3dbc3a12c8bda0c654/jbosgi-metadata-2.0.3.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.osgi.metadata/jbosgi-metadata/2.0.3.Final/source/e9285c72b1182b7d4b6ef01c35e0bb3ea9e3548e/jbosgi-metadata-2.0.3.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
