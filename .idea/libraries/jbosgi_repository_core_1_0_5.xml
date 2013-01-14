@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jbosgi-repository-core-1.0.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.osgi.repository/jbosgi-repository-core/1.0.5/jar/14ba0535773b00957b46cb7b05f52ca282053f77/jbosgi-repository-core-1.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.osgi.repository/jbosgi-repository-core/1.0.5/source/b4257951c8c5ce92b53fb2b20590246bf8ba89d9/jbosgi-repository-core-1.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,41 @@
+apply plugin: "war"
+sourceSets {
+    integrationTest {
+        java.srcDir file('src/integration-test/java')
+        resources.srcDir file('src/integration-test/resources')
+    }
+}
+
+task integrationTest(type: Test, dependsOn: jar) {
+    testClassesDir = sourceSets.integrationTest.output.classesDir
+    classpath = sourceSets.integrationTest.runtimeClasspath
+    systemProperties['jar.path'] = jar.archivePath
+}
+dependencies{
+    compile project(":core")
+    testCompile project(path: ":core", configuration: "tests")
+    //providedCompile("org.jboss.spec:jboss-javaee-6.0:$jbossJavaeeVersion")
+
+
+    integrationTestCompile(
+      sourceSets.main.output,
+      configurations.testCompile,
+      sourceSets.test.output,
+      configurations.testRuntime,
+      "org.jboss.arquillian.junit:arquillian-junit-container:$arquillianJunitVersion"
+    )
+
+
+    testCompile(
+        "org.jboss.arquillian.junit:arquillian-junit-container:$arquillianJunitVersion"
+    )
+    runtime("org.jboss.as:jboss-as-arquillian-container-managed:$jbossVersion")
+    providedCompile("org.jboss.resteasy:resteasy-jaxrs:$resteasyVersion")
+    providedCompile("org.jboss.resteasy:resteasy-jaxb-provider:$resteasyVersion")
+    providedCompile("org.jboss.resteasy:resteasy-jettison-provider:$resteasyVersion")
+
+    providedCompile("org.hibernate:hibernate-jpamodelgen:$hibernateJpaModelgenVersion")
+
+}
+
+check.dependsOn integrationTest

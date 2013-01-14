@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jbosgi-resolver-felix-1.0.13.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.osgi.resolver/jbosgi-resolver-felix/1.0.13.Final/jar/8284de73532f155cc27c7b99c270230fd25e3ab6/jbosgi-resolver-felix-1.0.13.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.osgi.resolver/jbosgi-resolver-felix/1.0.13.Final/source/7b2553616cedee5d68190fc3a71d86e0763ae95e/jbosgi-resolver-felix-1.0.13.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

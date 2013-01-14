@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jboss-as-process-controller-7.1.1.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.as/jboss-as-process-controller/7.1.1.Final/jar/44114005cb4cafc5f9bec809a91d9722c3cac773/jboss-as-process-controller-7.1.1.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.as/jboss-as-process-controller/7.1.1.Final/source/b42d0ae0961ffcf70d01b8587b6803afe1d875e1/jboss-as-process-controller-7.1.1.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

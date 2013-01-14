@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jboss-as-osgi-service-7.1.1.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.as/jboss-as-osgi-service/7.1.1.Final/jar/f17991f20eaf921df2fae0e4575c6550772522b5/jboss-as-osgi-service-7.1.1.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.as/jboss-as-osgi-service/7.1.1.Final/source/1239f8fe19dda5e6c436233207e1b30b06dcf767/jboss-as-osgi-service-7.1.1.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

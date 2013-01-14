@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jbosgi-resolver-spi-1.0.13.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.osgi.resolver/jbosgi-resolver-spi/1.0.13.Final/jar/81796fbee41df029c006bf926ac5c2e64b7a65a6/jbosgi-resolver-spi-1.0.13.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.osgi.resolver/jbosgi-resolver-spi/1.0.13.Final/source/3548b884030465fdf9062cf758fcc4514acad774/jbosgi-resolver-spi-1.0.13.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="wagon-http-lightweight-1.0-beta-7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.apache.maven.wagon/wagon-http-lightweight/1.0-beta-7/jar/9ef3b12c97698bbff2a339d38a6c3f24e490e466/wagon-http-lightweight-1.0-beta-7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.apache.maven.wagon/wagon-http-lightweight/1.0-beta-7/source/11bd8f11931dc59bfb0ecc80b94658f9d3f19f6c/wagon-http-lightweight-1.0-beta-7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

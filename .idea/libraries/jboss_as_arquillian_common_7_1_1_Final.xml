@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jboss-as-arquillian-common-7.1.1.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.as/jboss-as-arquillian-common/7.1.1.Final/jar/16a8fae5bbe4a953d0215a69f2fb01e9aca775e/jboss-as-arquillian-common-7.1.1.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.as/jboss-as-arquillian-common/7.1.1.Final/source/845cb363ab2f897430d0ff391915828845db3714/jboss-as-arquillian-common-7.1.1.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

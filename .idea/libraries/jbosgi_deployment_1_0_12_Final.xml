@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jbosgi-deployment-1.0.12.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.osgi.deployment/jbosgi-deployment/1.0.12.Final/jar/fbdc15c82cbc6226a0892437839a3eb9edb60472/jbosgi-deployment-1.0.12.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.osgi.deployment/jbosgi-deployment/1.0.12.Final/source/e594b6b693eaeef81adf3ec7821c250d3561171/jbosgi-deployment-1.0.12.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

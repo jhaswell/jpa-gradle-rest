@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jbosgi-spi-3.0.1.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.osgi.spi/jbosgi-spi/3.0.1.Final/jar/2872b7a13eeef82f4f31db83231ef98844a957df/jbosgi-spi-3.0.1.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.osgi.spi/jbosgi-spi/3.0.1.Final/source/6043e51ed4d50a432075474fc0947d15710d1f8/jbosgi-spi-3.0.1.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

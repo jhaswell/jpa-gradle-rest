@@ -1,0 +1,4 @@
+
+dependencies {
+    compile("org.jboss.spec:jboss-javaee-6.0:$jbossJavaeeVersion")
+}

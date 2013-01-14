@@ -1,0 +1,31 @@
+apply plugin: "idea"
+
+
+subprojects {
+    apply plugin: "java"
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://repository.jboss.org/nexus/content/repositories/releases"
+        }
+        maven {
+            url "http://repository.jboss.org/nexus/content/groups/public"
+        }
+    }
+    dependencies {
+        testCompile("junit:junit:$junitVersion")
+        testCompile("org.mockito:mockito-all:$mockitoVersion")
+    }
+
+    task testArchive(type: Jar, dependsOn: testClasses) {
+        baseName = "test-${project.archivesBaseName}"
+        from sourceSets.test.output
+    }
+    configurations {
+        tests
+    }
+    artifacts {
+        tests testArchive
+    }
+}
+

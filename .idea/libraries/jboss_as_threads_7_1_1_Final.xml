@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jboss-as-threads-7.1.1.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.as/jboss-as-threads/7.1.1.Final/jar/2ed5b9526d43f37691e4d4e9299878534c1da548/jboss-as-threads-7.1.1.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.as/jboss-as-threads/7.1.1.Final/source/a33f1ba6f3c076419c54df67c8990a0f46fda4a2/jboss-as-threads-7.1.1.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jbosgi-resolver-api-v2-2.0.0.Beta2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.osgi.resolver/jbosgi-resolver-api-v2/2.0.0.Beta2/jar/526afc898a561781785f70db382ad93e1324cbd8/jbosgi-resolver-api-v2-2.0.0.Beta2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.osgi.resolver/jbosgi-resolver-api-v2/2.0.0.Beta2/source/fa4330acb9ad5ee08a4fa55c027a0be5b46dc2e9/jbosgi-resolver-api-v2-2.0.0.Beta2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

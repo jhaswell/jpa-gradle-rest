@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jboss-remote-naming-1.0.2.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss/jboss-remote-naming/1.0.2.Final/jar/780e8d441beed0fb17fb38ca5a056ea2ffb908fc/jboss-remote-naming-1.0.2.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss/jboss-remote-naming/1.0.2.Final/source/35201e2a982e42d377889a3c21df91017a22569c/jboss-remote-naming-1.0.2.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

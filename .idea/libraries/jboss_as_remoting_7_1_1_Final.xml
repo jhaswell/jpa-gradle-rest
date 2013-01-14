@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jboss-as-remoting-7.1.1.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.as/jboss-as-remoting/7.1.1.Final/jar/f21112f7c645566fee719fb346eb4dc721c72608/jboss-as-remoting-7.1.1.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.as/jboss-as-remoting/7.1.1.Final/source/9ac3bef4f504cd933aee8f0aa66ab0d012149967/jboss-as-remoting-7.1.1.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

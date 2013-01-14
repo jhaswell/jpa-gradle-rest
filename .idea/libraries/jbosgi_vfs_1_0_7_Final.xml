@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jbosgi-vfs-1.0.7.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.osgi.vfs/jbosgi-vfs/1.0.7.Final/jar/541f734c26ccb95a3407d74db48a4d6c4306fe9f/jbosgi-vfs-1.0.7.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.jboss.osgi.vfs/jbosgi-vfs/1.0.7.Final/source/e61ac2cb8683a3033c5bcd013b30f98b3bfc761f/jbosgi-vfs-1.0.7.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

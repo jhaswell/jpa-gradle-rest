@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="aether-connector-wagon-1.8">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.sonatype.aether/aether-connector-wagon/1.8/jar/7dade3c055c412ee3cd45544b8c529cc88561576/aether-connector-wagon-1.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.sonatype.aether/aether-connector-wagon/1.8/source/24a34ffa48b5874ea01898f7dabfdee0641066f4/aether-connector-wagon-1.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
