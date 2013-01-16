@@ -67,12 +67,11 @@ public class TenantEndpointIntegrationTest extends TenantEndpointTest
         final Tenant tenant = new Tenant();
         tenant.setName("Coke");
         tenant.setDescription("Coca-cola");
-        ClientRequest request = new ClientRequest(deploymentUrl + "rest/tenant/save");
-        request.accept(MediaType.APPLICATION_JSON_TYPE);
-        request.body(MediaType.APPLICATION_JSON_TYPE, tenant);
-        ClientResponse tresp = request.post(Tenant.class);
-        tresp.
-        assertEquals(tresp.getEntity(),"Joe");
+        ClientRequest request = new ClientRequest(deploymentUrl + "rest/tenant/save")
+            .accept(MediaType.APPLICATION_JSON_TYPE)
+            .body(MediaType.APPLICATION_JSON_TYPE, tenant);
+        ClientResponse<Tenant> tresp = request.post(Tenant.class);
+        assertEquals(tresp.getEntity().getName(),"Coke");
     }
 
 }
