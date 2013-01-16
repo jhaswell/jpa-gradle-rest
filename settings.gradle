@@ -1,1 +1,1 @@
-include "core", "service", "web"
+include "core", "service", "web", "shared"

@@ -14,12 +14,6 @@ subprojects {
         }
     }
 
-    dependencies {
-        testCompile("junit:junit:$junitVersion")
-        testCompile("org.mockito:mockito-all:$mockitoVersion")
-    }
-
-
     sourceSets {
         integrationTest {
             java.srcDir file('src/integration-test/java')
@@ -34,18 +28,52 @@ subprojects {
     }
 
 
+    task integrationTestArchive(type: Jar, dependsOn: integrationTestClasses) {
+        baseName = "itest-${project.archivesBaseName}"
+        from sourceSets.test.output
+        from sourceSets.integrationTest.output
+    }
+
     task testArchive(type: Jar, dependsOn: testClasses) {
         baseName = "test-${project.archivesBaseName}"
         from sourceSets.test.output
     }
 
-
     configurations {
         tests
+        integrationTests
     }
+
+
     artifacts {
         tests testArchive
+        integrationTests integrationTestArchive
     }
-    check.dependsOn integrationTest
-}
 
+
+    task copyTestResources(type: Copy) {
+        from "${project(':shared').projectDir}/src/test/resources/META-INF"
+        from "${project(':shared').projectDir}/src/test/resources/webapp/WEB-INF"
+        into "${project.buildDir}/classes/integrationTest"
+    }
+
+    dependencies {
+        testCompile("junit:junit:$junitVersion")
+        testCompile("org.mockito:mockito-all:$mockitoVersion")
+        runtime("org.jboss.as:jboss-as-arquillian-container-managed:$jbossVersion")
+
+        integrationTestCompile(
+            sourceSets.main.output,
+            configurations.testCompile,
+            sourceSets.test.output,
+            configurations.testRuntime
+        )
+
+
+        testCompile("org.jboss.arquillian.junit:arquillian-junit-container:$arquillianJunitVersion")
+        integrationTestCompile("org.jboss.arquillian.junit:arquillian-junit-container:$arquillianJunitVersion")
+    }
+
+    check.dependsOn integrationTest
+    processTestResources.dependsOn copyTestResources
+}

@@ -3,25 +3,17 @@ package com.ec.deploy.service.core.tenancy;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import javax.transaction.HeuristicMixedException;
-import javax.transaction.HeuristicRollbackException;
-import javax.transaction.NotSupportedException;
-import javax.transaction.RollbackException;
-import javax.transaction.SystemException;
 import javax.transaction.UserTransaction;
 
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;
 import org.jboss.shrinkwrap.api.Archive;
-import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.jboss.shrinkwrap.api.asset.EmptyAsset;
-import org.jboss.shrinkwrap.api.spec.WebArchive;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import com.ec.deploy.model.core.tenancy.Tenant;
-import com.ec.deploy.service.core.DefaultTenantService;
+import com.ec.deploy.service.test.ServiceDeployment;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.not;
@@ -55,13 +47,11 @@ public class DefaultTenantServiceIntegrationTest
     @Deployment
     public static Archive<?> createDeployment()
     {
-        return ShrinkWrap.create(WebArchive.class, "impl.war")
-             .addPackage(Tenant.class.getPackage())
-             .addPackage(TenantService.class.getPackage())
-             .addPackage(DefaultTenantService.class.getPackage())
-             .addAsWebInfResource(EmptyAsset.INSTANCE, "beans.xml")
-             .addAsResource("META-INF/persistence.xml")
-             .addAsWebInfResource("jbossas-ds.xml");
+        return ServiceDeployment.getInstance().getDeployment()
+             .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml")
+             .addAsManifestResource("persistence.xml",
+                 "persistence.xml")
+             .addAsManifestResource("jbossas-ds.xml", "jbossas-ds.xml");
     }
 
     @Inject
